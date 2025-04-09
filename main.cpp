@@ -1,13 +1,6 @@
 #include <iostream>
-#include <string>
 
 int main() {
-    std::string name;
-
-    std::cout << "Введите символы: ";
-    std::getline(std::cin, name);
-
-    std::cout << "Привет, " << name << "!" << std::endl;
-
+    std::cout << "Привет, мир!" << std::endl;
     return 0;
 }
