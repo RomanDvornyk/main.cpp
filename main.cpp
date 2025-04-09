@@ -4,7 +4,7 @@
 int main() {
     std::string name;
 
-    std::cout << "Введите текст: ";
+    std::cout << "Введите символы: ";
     std::getline(std::cin, name);
 
     std::cout << "Привет, " << name << "!" << std::endl;
